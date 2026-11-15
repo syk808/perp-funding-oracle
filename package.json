@@ -1,0 +1,25 @@
+{
+  "name": "perp-funding-oracle",
+  "version": "0.2.0",
+  "description": "On-chain TWAP funding rate aggregator and basis spread oracle for EVM perpetual DEXs",
+  "license": "MIT",
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart-contracts",
+    "defi",
+    "perpetual-futures",
+    "funding-rate",
+    "oracle",
+    "evm",
+    "foundry"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "ethers": "^6.13.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0"
+  }
+}
